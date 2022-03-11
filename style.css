@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/**NAV-BAR**/
+nav{
+    display: flex;
+    justify-content:space-around;
+    min-height: 5vh;
+    align-items:center;
+    background-color: rgb(181, 252, 74);
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.logo{
+    color:black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.534);
+    text-transform:uppercase;
+    letter-spacing:10px;
+    font-size: 20px;
+}
+
+.logo:hover{
+    color:white;
+    transition: 0.5s;
+}
+
+.nav-links{
+    display:flex;
+    justify-content:space-around;
+    width: 50%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul{
+
+
+}
+a:hover{
+    color: white;
+    transition: .5s;
+    border-radius: 10px 10px 10px;
+    padding: 3px;
+    font-size: 22px;
+    
+}
+
+
+/**BACKGROUND**/
+body{
+    background-color: black;
+    width: 100%;
+}
+
+
+/**TITULO TECLADO**/
+h3#titulo{
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/**BOX PRODUTO CONTAINER**/
+.produtos{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+
+/**BOX PRODUTO SEPARADO**/
+.produto{
+    background-color: rgb(12, 12, 12);
+    border: 1px solid rgba(77, 77, 77, 0.719);
+}
+.produto p{
+    background-color: rgb(181, 252, 74);
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.produto p:hover{
+    background-color:rgb(181, 252, 74);   
+}
+.produto img:hover{
+    opacity:0.8;
+    background-color:rgb(181, 252, 74);
+    padding: 5%;
+}
+.produtos img{
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
